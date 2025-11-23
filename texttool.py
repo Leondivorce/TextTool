@@ -12,6 +12,8 @@ def process_line(line):
         return text.upper()
     if cmd == "lowercase":
         return text.lower()
+    if cmd == "length":
+        return str(len(text))
 
     # B : commande count-words
     if cmd == "count-words":
